@@ -12,7 +12,7 @@ const App = () => {
     dragOffset: { x: 0, y: 0 },
   });
  
-  const [delta, setDelta] = useState(3);
+  const [delta, setDelta] = useState(1);
 
   const handleMouseDown = (e) => {
     setSquare({
@@ -83,6 +83,7 @@ const App = () => {
             width={square.size}
             height={square.size}
             stroke="white"
+            fill="transparent"
             strokeWidth="2"
             cursor="move"
           />
