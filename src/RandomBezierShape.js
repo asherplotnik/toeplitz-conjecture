@@ -58,13 +58,7 @@ const RandomBezierShape = () => {
 
   return (
     <>
-      <path d={pathData} fill="none" stroke="white" strokeWidth="2" />
-      {points.map((point, index) => (
-        <circle key={index} cx={point.x} cy={point.y} r="3" fill="red" />
-      ))}
-      {controlPoints.map((point, index) => (
-        <circle key={index} cx={point.x} cy={point.y} r="3" fill="yellow" />
-      ))}
+      <path d={pathData} fill="none" stroke="white" strokeWidth="1" />
     </>
   );
 };

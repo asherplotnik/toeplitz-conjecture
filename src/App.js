@@ -84,7 +84,7 @@ const App = () => {
             height={square.size}
             stroke="white"
             fill="transparent"
-            strokeWidth="2"
+            strokeWidth="1"
             cursor="move"
           />
         </g>
